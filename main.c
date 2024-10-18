@@ -3,10 +3,14 @@ include <stdio.h>
 int void main()
 {
 	printf("Hello\n");
-	printf(func());
+	printf(func(2));
 }
 
-boolean func()
+boolean func(int a)
 {
-	return true;
+	if (a % 2 == 0 ) {
+		return true;
+	} else {
+		return false:
+	}
 }
