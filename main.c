@@ -7,16 +7,17 @@ int void main()
 	printf(func(true));
 }
 
-boolean func(int a)
+int func(int a)
 {
 	if (a % 2 == 0 ) {
-		return true;
+		return 0;
 	} else {
-		return false:
+		return 1;
 	}
 }
 
 boolean func(bollean b)
 {
-	return b;
+	return !b;
 }
+ // comment
