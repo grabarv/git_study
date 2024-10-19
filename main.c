@@ -4,6 +4,7 @@ int void main()
 {
 	printf("Hello\n");
 	printf(func(2));
+	printf(func(true));
 }
 
 boolean func(int a)
@@ -13,4 +14,9 @@ boolean func(int a)
 	} else {
 		return false:
 	}
+}
+
+boolean func(bollean b)
+{
+	return b;
 }
