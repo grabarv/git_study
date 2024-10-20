@@ -9,3 +9,8 @@ boolean func()
 {
 	return true;
 }
+
+int add(int a, int b)
+{
+	return a+b;
+}
