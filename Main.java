@@ -6,4 +6,8 @@ public class Main{
 	private void printValue(String s) {
 		System.out.println(s);
 	}
+
+	public void multiply(int a, int b) {
+		return a * b;
+	}
 }
