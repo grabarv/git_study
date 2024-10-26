@@ -3,11 +3,17 @@ include <stdio.h>
 int void main()
 {
 	printf("Hello\n");
+	printf(func(2));
+	printf(func(true));
 }
 
-boolean func()
+int func(int a)
 {
-	return true;
+	if (a % 2 == 0 ) {
+		return 0;
+	} else {
+		return 1;
+	}
 }
 
 int add(int a, int b)
@@ -16,3 +22,4 @@ int add(int a, int b)
 }
 // comment1
 // comment2
+
